@@ -3,11 +3,12 @@ Peer Assignment 1 - Reproducible Research
 
 Set Echo = TRUE as a global option.
 
-'''{r setoptions, echo = TRUE}
+
+```r
 
 opts_chunk$set(echo = TRUE)
+```
 
-'''
 
 Load the data from the working directory, create factor based on the date column and create new data sets that (1) aggregate steps by date and (2) gives the mean daily steps by interval.
 

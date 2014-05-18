@@ -183,11 +183,9 @@ hljs.initHighlightingOnLoad();
 
 <p>Set Echo = TRUE as a global option.</p>
 
-<p>&#39;&#39;&#39;{r setoptions, echo = TRUE}</p>
-
-<p>opts_chunk$set(echo = TRUE)</p>
-
-<p>&#39;&#39;&#39;</p>
+<pre><code class="r">
+opts_chunk$set(echo = TRUE)
+</code></pre>
 
 <p>Load the data from the working directory, create factor based on the date column and create new data sets that (1) aggregate steps by date and (2) gives the mean daily steps by interval.</p>
 
